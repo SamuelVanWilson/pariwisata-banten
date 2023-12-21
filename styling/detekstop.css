@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {background-color: #F0ECE5;}
+.info-contact h1, .info-contact p, li a, 
+article.hero section h1, article.hero section p,
+article.hero section button,.faq-content h1,
+.question h2, .answers p, .question i {color: #F0ECE5;}
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 20px 80px;
+    z-index: 1000;
+    transition: 400ms;
+}
+header img {
+    width: 80px; 
+    position: relative;
+    transition: 400ms;
+}
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+    position: relative;
+}
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+article.hero img{
+    filter: brightness(40%);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+article.hero section {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: -42vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+article.hero section h1{font-size: 65px;}
+article.hero section p {
+    width: 80%;
+    font-size: 18px;
+    margin: 35px auto;
+}
+article.hero section button {
+    padding: 14px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #739072;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+.sticky {
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 -14px 20px black;
+}
+.sticky ul li a {color: black;}
+.sticky img {width: 70px;}
+.benefit {
+    font-size: 18px;
+    display: flex;
+    padding: 100px 0;
+    width: 70%;
+    margin: auto;
+    gap: 40px;
+}
+.benefit section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    gap: 10px;
+}
+h1, h2 {
+    color: rgba(31, 31, 31, 0.87);
+    font-weight: bold;
+}
+article section p {
+    color: rgb(138, 138, 138);
+    word-spacing: 4px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.benefit section i {
+    color: #739072;
+    filter: drop-shadow(5px 6px 0 rgba(0, 0, 0, 0.075));
+}
+.heading-gallery {
+    text-align: center;
+    width: 90%;
+    font-size: 26px;
+    margin: auto;
+}
+.heading-gallery h1 {margin-bottom: 9px;}
+.heading-gallery p {font-size: 18px;}
+.body-gallery {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+.gallery {
+    border-radius: 4px;
+    width: 30%;
+    margin: 30px 5px;
+    background-color: white;
+}
+.gallery img {
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    height: 230px;
+}
+.gallery p {padding: 0 30px 40px 30px;}
+.gallery h2 {padding: 20px 30px 10px 30px;}
+article.contact {
+    display: flex;
+    background-color: #739072;
+    justify-content: space-between;
+    padding: 50px 120px;
+    gap: 150px;
+}
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 19px;
+    width: 80%;
+    color: #F0ECE5;
+}
+.info-contact h1 {
+    margin-bottom: 19px;
+    font-size: 30px;
+} 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: flex-start;
+    gap: 20px;
+}
+form input {
+    outline: none;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+form input:nth-child(4) {
+    background-color: #F0ECE5;
+    font-weight: 600;
+}
+form input:nth-child(3) {flex-grow: 2;}
+form input:nth-child(2) {flex-grow: 1.3;}
+.faq-content {
+    background-color: #7b9b7a;
+    padding: 80px 0;
+}
+.faq-content h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.faq {
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+.question i {font-size: 45px; transition: 300ms;}
+.answers {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .8s ease;
+}
+.expnd {transition: transform .6s ease;}
+.faq.visible .answers {max-height: 150px;}
+.faq.visible .expnd {transform: rotate(180deg);}
+footer section img {width: 2.5%; margin: 0 6px;}
+footer section {text-align: center; margin: 20px 0;}
+footer {border-top: 3px groove;}
+footer p {
+    text-align: center; 
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+footer p span {color: #4c684b;}
