@@ -7,3 +7,11 @@ expandMore.forEach(section => {
     })
 });
 
+let menu = document.getElementById('menu')
+let mobileMenu = document.querySelector('.mobile')
+menu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('menu-mobile')
+})
+menu.addEventListener('click', () => {
+    menu.innerText = (menu.innerText === 'menu') ? 'close' : 'menu';
+})

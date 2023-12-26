@@ -6,15 +6,25 @@
     <title>Wisata Banten</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styling/detekstop.css">
+    <link rel="stylesheet" href="styling/mobile.css">
 </head>
 <body>
     <header>
         <img src='image/logo.svg' alt='logo wisata banten'>
-        <ul>
-            <li><a href="">Destination</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+        <nav>
+            <ul class="dekstop">
+                <li><a href="#1">About Us</a></li>
+                <li><a href="#2">Destination</a></li>
+                <li><a href="#3">Contact</a></li>
+            </ul>
+
+            <i class="material-icons" id="menu">menu</i>
+            <ul class="mobile">
+                <li><a href="#1">About Us</a></li>
+                <li><a href="#2">Destination</a></li>
+                <li><a href="#3">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main>
@@ -28,7 +38,7 @@
             </section>
         </article>
     
-        <article class="benefit">
+        <article class="benefit" id="1">
             <section>
                 <i class="material-icons" style="font-size:38px">pin_drop</i>
                 <h1>Target Lokasi</h1>
@@ -48,8 +58,8 @@
             </section>
         </article>
 
-        <article class="gallery-content">
-            <section class="heading-gallery">
+        <article class="gallery-content" >
+            <section class="heading-gallery" id="2">
                 <h1>Preview Tempat Wisata</h1>
                 <p>Jelajahi galeri foto kami yang memukau, yang menampilkan keindahan dan keajaiban 
                 tempat-tempat wisata dari seluruh dunia. Lihatlah momen-momen berharga yang tertangkap 
@@ -94,7 +104,7 @@
                 </section>
             </section>
         </article>
-        <article class="contact">
+        <article class="contact" id="3">
             <section class="info-contact">
                 <h1>Mari Gabung Bersama Kami</h1>
                 <p>kami siap sedia dalam membantu perjalanan anda menuju tempat yang anda inginkan</p>
@@ -157,9 +167,9 @@
     </main>
     <footer>
         <section>
-            <img src="image/logo-ig.svg" alt="instagram logo"><a href=""></a></img>
-            <img src="image/logo-yt.svg" alt="youtube logo"><a href=""></a></img>
-            <img src="image/logo-github.svg" alt="github logo"><a href=""></a></img>
+            <a href="https://www.instagram.com/inisamuelvan/"><img src="image/logo-ig.svg" alt="instagram logo"></img></a>
+            <a href="#"><img src="image/logo-yt.svg" alt="youtube logo"></img></a>
+            <a href="https://github.com/SamuelVanWilson"><img src="image/logo-github.svg" alt="github logo"></img></a>
         </section>
         <p>created by <span>samuel van</span> | &copy; 2023</p>
     </footer>
