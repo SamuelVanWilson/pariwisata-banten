@@ -4,11 +4,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html {scroll-behavior: smooth;}
 body {background-color: #F0ECE5;}
 .info-contact h1, .info-contact p, li a, 
 article.hero section h1, article.hero section p,
 article.hero section button,.faq-content h1,
-.question h2, .answers p, .question i {color: #F0ECE5;}
+.question h2, .answers p, .question i {color: #ffffff;}
 header {
     top: 0;
     left: 0;
