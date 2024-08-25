@@ -1,7 +1,7 @@
 # Pariwisata Banten Landing Page
 > Halo! Selamat datang di proyek landing page saya yang bertema pariwisata Banten! 🌴
-Proyek ini dibuat sebagai bagian dari **tes seleksi** peserta lomba LKS Web Development dari sekolah saya. Walaupun saya tidak ikut lomba tahun ini karena merasa masih perlu belajar lebih banyak, saya tetap bersemangat untuk membuat website ini sebagai latihan dan showcase keterampilan saya.
 ---
+Proyek ini dibuat sebagai bagian dari **tes seleksi** peserta lomba LKS Web Development dari sekolah saya. Walaupun saya tidak ikut lomba tahun ini karena merasa masih perlu belajar lebih banyak, saya tetap bersemangat untuk membuat website ini sebagai latihan dan showcase keterampilan saya.
 
 ### Apa Itu Proyek Ini?
 Proyek ini adalah sebuah landing page yang dirancang untuk mempromosikan pariwisata di Banten. Saya menggunakan HTML, CSS, dan JavaScript secara native untuk membuat website ini. Tujuannya adalah untuk menunjukkan berbagai destinasi wisata di Banten dengan desain yang menarik dan responsif.
@@ -15,5 +15,5 @@ Website ini dibuat sebagai tugas dari guru pembimbing untuk menguji keterampilan
 - Navigasi Mudah: Struktur yang jelas dan mudah dinavigasi untuk pengalaman pengguna yang menyenangkan.
 
 ### Cara Melihat Proyek Ini
-Kamu bisa melihat hasilnya secara langsung di link berikut (Pariwisata Banten - By inisamuelvan)[https://samuelvanwilson.github.io/pariwisata-banten/]
+Kamu bisa melihat hasilnya secara langsung di link berikut [Pariwisata Banten - By inisamuelvan](https://samuelvanwilson.github.io/pariwisata-banten/)
 
